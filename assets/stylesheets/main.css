@@ -298,9 +298,10 @@ p {
   font-weight: 700;
 }
 
-/*.english-title {*/
-/*  font-family: serif;*/
-/*}*/
+.english-title {
+  color: white;
+  font-family: serif;
+}
 
 /*==================*/
 /* Buttons*/
@@ -345,7 +346,7 @@ p {
   text-align: right;
 }
 
-.yiddish-title, .english-title, .tagline {
+.yiddish-title, .tagline {
   color: #480048
 }
 
