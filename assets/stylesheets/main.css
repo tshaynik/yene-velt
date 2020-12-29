@@ -1,3 +1,5 @@
+/*=== Base Rules ===*/
+
 body {
   background: #480048;
   color: #888;
@@ -15,6 +17,14 @@ h2,
 h3,
 h4 {
   color: #648880;
+}
+
+h1,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 22px;
 }
 
 h1 {
@@ -95,7 +105,7 @@ nav li:last-child {
 .container,
 .teaser-box {
   margin: 0 auto;
-  width: 80%;
+  width: 80vw;
 }
 
 .container {
@@ -125,14 +135,6 @@ nav li:last-child {
 /*===========*/
 /* Typography*/
 /*===========*/
-
-h1,
-h3,
-h4,
-h5,
-p {
-  margin-bottom: 22px;
-}
 
 .yiddish-title {
   margin-bottom: 0;
@@ -200,7 +202,7 @@ p {
 }
 
 .header-image {
-  height: 1000px;
+  height: 100vh;
   background-color: #648880;
   background-image: url("../images/yene-velt-2020-12-sepia.png");
   background-repeat: no-repeat;
